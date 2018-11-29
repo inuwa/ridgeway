@@ -1,0 +1,52 @@
+.single-height {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 90px;
+  margin: 5px;
+  width: calc(100% -20px);
+}
+
+.double-height {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 190px;
+  margin: 5px;
+}
+.menu {
+  background: white;
+  height: 50px;
+  line-height:30px;
+  width:100%;
+  padding: 10px;
+}
+
+.sticky {
+  position:fixed;
+  top:0;
+  right: 10px;
+  z-index: 9999;
+}
+
+@media only screen and (min-width: 461px) {
+  .no-left-padding {
+    padding-left: 0px;
+  }
+  
+  .no-right-padding {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .btn-block {
+    min-width: max-content;
+    margin: 0 1px 0 0px;
+  }
+}
+.restrict {
+  max-width: 940px;
+}
